@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "es5",
+            "es6"
+        ],
+        "outDir": "./rules",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

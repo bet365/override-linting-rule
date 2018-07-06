@@ -1,0 +1,19 @@
+{
+  "name": "override-linting-rule",
+  "version": "1.0.0",
+  "description": "This is a linting rule to force marking of method and property overrides.",
+  "main": "rules/test/index.js",
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "tslint": "5.0.0",
+    "typescript": "2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node \"./rules/test/index.js\"",
+    "build": "node \"./node_modules/typescript/bin/tsc\"",
+    "watch": "node \"./node_modules/typescript/bin/tsc\" --watch"
+  },
+  "author": "bet365",
+  "license": "ISC"
+}
